@@ -20,7 +20,7 @@ pkgbase="mingw-w64-${_realname}"
 #
 # Run updpkgprovs after the package is built and installed to update the
 # provides array, then repackage.
-pkgver="5.28.0"
+pkgver="5.30.2"
 #       v    ^
 pkgrel="1"
 pkgdesc="A highly capable, feature-rich programming language (mingw-w64)"
@@ -740,7 +740,7 @@ provides=(
 ## End of pkgupdprovs modifications
 
 ## Run updpkgsums to update
-sha256sums=('059b3cb69970d8c8c5964caced0335b4af34ac990c8e61f7e3f90cd1c2d11e49'
+sha256sums=('a1aa88bd6fbbdc2e82938afbb76c408b0ea847317737b712dc196cc7907a5259'
             '7238ed1e5c30b5e413c01b49aed082d10de779deebc62ef3ce04a59b68dfb5c0'
             '93585dfb9c82cc68de5d4e0d534cb750fe7cc9b59896d2f4e88b3062afb4088c'
             'bcf3ba68959bfe8cc8888c1b1fd83588dd02b03e1ab7c89341477be3f44d896d'
